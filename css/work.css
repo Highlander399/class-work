@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.box{
+        background-color:blue;
+        text-transform: capitalize;
+        margin: .3rem;
+        padding: 2rem;
+        flex-basis:10%;
+    }
+    @media(max-width: 991.98px){
+        .four{
+            display: none;
+        }
+    }
+
+
+@media(max-width: 567.67px){
+    .box{
+        background: sandybrown;
+        
+        }
+        .four{
+            /* display: list-item; */
+            display: block;
+            /* flex-wrap: wrap; */
+            
+
+        }
+
+
+       
+            
+        }
+    
+ 
